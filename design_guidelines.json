@@ -1,0 +1,91 @@
+{
+  "theme": "dark",
+  "archetype": "5 (Jewel & Luxury - Tech Variant)",
+  "colors": {
+    "background_primary": "#05050A",
+    "background_secondary": "#0A0A12",
+    "surface": "#12121A",
+    "primary_accent": "#1E73BE",
+    "primary_hover": "#2B87D9",
+    "text_main": "#FFFFFF",
+    "text_muted": "#A1A1AA",
+    "border_subtle": "rgba(255, 255, 255, 0.1)",
+    "glass_bg": "rgba(10, 10, 18, 0.6)",
+    "glass_border": "rgba(255, 255, 255, 0.08)"
+  },
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Manrope",
+    "h1": "text-5xl sm:text-6xl font-black tracking-tighter leading-none text-white",
+    "h2": "text-3xl sm:text-4xl font-bold tracking-tight text-white",
+    "h3": "text-xl sm:text-2xl font-semibold tracking-tight text-white",
+    "body": "text-base font-normal leading-relaxed text-zinc-400",
+    "overline": "text-xs font-bold tracking-[0.2em] uppercase text-blue-500",
+    "button": "text-sm font-bold tracking-wide uppercase"
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32",
+    "grid_gap": "gap-6 md:gap-8 lg:gap-12",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6",
+    "border_radius": "rounded-2xl"
+  },
+  "surface_strategies": {
+    "header": "Crystal Glass - backdrop-blur-xl bg-black/60 border-b border-white/10 z-50 fixed w-full top-0",
+    "cards": "Flat background with 1px subtle border border-white/10, hover:-translate-y-1 hover:border-blue-500/50 hover:shadow-[0_0_30px_rgba(30,115,190,0.15)] transition-all duration-300",
+    "hero_overlay": "bg-gradient-to-r from-black/80 via-black/40 to-black/20"
+  },
+  "media": {
+    "logo": "https://customer-assets.emergentagent.com/job_sagar-sleek-digital/artifacts/uerdwkuq_WhatsApp%20Image%202026-04-17%20at%2011.47.06%20AM.jpeg",
+    "images": {
+      "hero_background": {
+        "url": "https://images.unsplash.com/photo-1632749042303-7f7a18ed6ff0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHw0fHxnYW1pbmclMjBwY3xlbnwwfHx8fDE3NzY0MDY3MTV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Close up of a computer motherboard in a dark room - use for the main hero section with overlay."
+      },
+      "custom_builds": {
+        "url": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxnYW1pbmclMjBwY3xlbnwwfHx8fDE3NzY0MDY3MTV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "White and black round AIO cooler light - use for custom PC building service showcase."
+      },
+      "gaming_setup": {
+        "url": "https://images.unsplash.com/photo-1626218174358-7769486c4b79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBwY3xlbnwwfHx8fDE3NzY0MDY3MTV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Gaming setup with monitor and keyboard - use for gaming rig sections."
+      },
+      "laptop_repair": {
+        "url": "https://images.unsplash.com/photo-1769085794397-9cde6d47233a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxjb21wdXRlciUyMGhhcmR3YXJlJTIwcmVwYWlyfGVufDB8fHx8MTc3NjQwNjcxNXww&ixlib=rb-4.1.0&q=85",
+        "description": "Close-up of laptop internal components - use for laptop/PC repair service section."
+      },
+      "laptop_sales": {
+        "url": "https://images.pexels.com/photos/19012051/pexels-photo-19012051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Modern gaming laptop with neon lighting - use for laptop selling service."
+      },
+      "circuit_macro": {
+        "url": "https://images.unsplash.com/photo-1651340527836-263c5072968e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwxfHxtb3RoZXJib2FyZCUyMG1hY3JvfGVufDB8fHxibHVlfDE3NzY0MDY3MDd8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Blue circuit board macro - use for background texture or about section."
+      }
+    }
+  },
+  "global_components": {
+    "button_primary": "bg-[#1E73BE] text-white px-8 py-4 rounded-none border border-transparent hover:bg-transparent hover:border-[#1E73BE] hover:text-[#1E73BE] transition-all duration-300 flex items-center gap-2",
+    "button_secondary": "bg-transparent text-white border border-white/20 px-8 py-4 rounded-none hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-2"
+  },
+  "content_requirements": {
+    "address": "SAGAR INFOTECH, DARSHAN ARCADE, UNIVERSITY RD, NR. HP PETROL PUMP, OPP. SHANTI MULTISPECIALITY HOSPITAL, ARCHANA SOCIETY, PANCHAYAT NAGAR, RAJKOT, GUJARAT 360005",
+    "phone": "9408488855",
+    "whatsapp_cta_text": "Chat on WhatsApp",
+    "pages": ["Home", "About Us", "Services", "Contact"]
+  },
+  "instructions_to_main_agent": [
+    "Build a multi-page marketing site using React Router. Pages: Home, About, Services, Contact.",
+    "Implement a deep, luxury dark theme. The background should be a rich, obsidian black (#05050A).",
+    "Use 'Outfit' for all headings and 'Manrope' for body text. Install these via Google Fonts.",
+    "The hero section on the homepage should feature 'images.hero_background' with a dark gradient overlay. It should feel like a $5000 custom gaming rig showroom.",
+    "Do not use generic 'Inter' for headings or Shadcn default Vercel-look.",
+    "Use Phosphor Icons (@phosphor-icons/react) for technical, high-end iconography.",
+    "Navigation must be visible on desktop (no hamburger menu on desktop). The header must have a crystal glassmorphism effect.",
+    "Services to showcase: Gaming PC Builds, Custom PC Assembly, Laptop Sales, Laptop/PC Repair, Component Upgrades.",
+    "The address MUST be displayed in UPPERCASE exactly as provided in 'content_requirements'.",
+    "Do not implement a contact form or email integration. The Contact page should only feature the Address, Phone (9408488855), Google Map Embed, and a WhatsApp CTA.",
+    "Use Framer Motion for entrance animations (staggered fade-ins, subtle scales).",
+    "Add data-testid attributes to all interactive elements for testing."
+  ]
+}
