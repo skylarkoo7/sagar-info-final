@@ -13,6 +13,8 @@ import {
     MapPin,
 } from "@phosphor-icons/react";
 import { BRAND, IMAGES, SERVICES, STATS } from "../lib/constants";
+import Testimonials from "../components/Testimonials";
+import { GALLERY_BUILDS } from "../lib/gallery";
 
 const Home = () => {
     return (
@@ -345,6 +347,71 @@ const Home = () => {
                     </motion.div>
                 </div>
             </section>
+
+            {/* ============ GALLERY TEASER ============ */}
+            <section
+                className="relative py-24 md:py-32 bg-brand-bg overflow-hidden"
+                data-testid="gallery-teaser"
+            >
+                <div className="max-w-[1440px] mx-auto px-6 md:px-10 lg:px-16">
+                    <div className="grid lg:grid-cols-12 gap-10 items-end mb-14">
+                        <div className="lg:col-span-8">
+                            <p className="overline mb-5">The Bench Book</p>
+                            <h2 className="font-display font-black text-4xl md:text-6xl text-white tracking-[-0.03em] leading-[1]">
+                                A few machines
+                                <br />
+                                <span className="italic text-gradient-blue">
+                                    we've shipped.
+                                </span>
+                            </h2>
+                        </div>
+                        <div className="lg:col-span-4 flex lg:justify-end">
+                            <Link
+                                to="/gallery"
+                                data-testid="gallery-teaser-viewall"
+                                className="group inline-flex items-center gap-3 text-white px-6 py-3 text-xs font-bold tracking-[0.2em] uppercase border border-white/20 hover:border-brand-blue transition-all"
+                            >
+                                See the Full Gallery
+                                <ArrowUpRight
+                                    size={16}
+                                    className="group-hover:rotate-45 transition-transform"
+                                />
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+                        {GALLERY_BUILDS.slice(0, 8).map((src, i) => (
+                            <motion.div
+                                key={src}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true, margin: "-50px" }}
+                                transition={{
+                                    duration: 0.55,
+                                    delay: Math.min(i * 0.05, 0.3),
+                                }}
+                                className={`relative overflow-hidden bg-brand-surface border border-white/5 hover:border-brand-blue/40 transition-all duration-500 group ${
+                                    i === 0 || i === 5
+                                        ? "row-span-2 aspect-[3/4]"
+                                        : "aspect-square"
+                                }`}
+                            >
+                                <img
+                                    src={src}
+                                    alt={`Build ${i + 1}`}
+                                    loading="lazy"
+                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1.2s]"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* ============ TESTIMONIALS ============ */}
+            <Testimonials />
 
             {/* ============ CTA BAND ============ */}
             <section

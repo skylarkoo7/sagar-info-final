@@ -62,6 +62,7 @@ export const Footer = () => {
                                 ["Home", "/"],
                                 ["About", "/about"],
                                 ["Services", "/services"],
+                                ["Gallery", "/gallery"],
                                 ["Contact", "/contact"],
                             ].map(([l, to]) => (
                                 <li key={to}>
