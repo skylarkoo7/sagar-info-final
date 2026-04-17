@@ -26,7 +26,7 @@ export const Footer = () => {
                                     SAGAR INFOTECH
                                 </span>
                                 <span className="text-[10px] tracking-[0.25em] text-brand-blueLight uppercase mt-1">
-                                    Rajkot · Since Day One
+                                    Rajkot · Est. 2016
                                 </span>
                             </div>
                         </Link>

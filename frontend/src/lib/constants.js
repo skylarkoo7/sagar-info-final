@@ -12,7 +12,7 @@ export const BRAND = {
     mapQuery:
         "SAGAR+INFOTECH+Darshan+Arcade+University+Road+Rajkot+Gujarat+360005",
     logo: "https://customer-assets.emergentagent.com/job_sagar-sleek-digital/artifacts/uerdwkuq_WhatsApp%20Image%202026-04-17%20at%2011.47.06%20AM.jpeg",
-    established: "Est. Rajkot",
+    established: "Est. 2016 · Rajkot",
 };
 
 export const IMAGES = {
