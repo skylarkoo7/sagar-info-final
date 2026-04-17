@@ -27,40 +27,40 @@ export const GALLERY_ALL = [
 
 export const TESTIMONIALS = [
     {
-        name: "Harsh P.",
-        role: "Gamer · Rajkot",
+        name: "Harshal Vaghela",
+        role: "University Road, Rajkot",
         stars: 5,
-        text: "Got my dream RTX build from Sagar Infotech. Cable management is absolute art and the benchmarks matched what they promised on paper. Best studio in Rajkot, hands down.",
+        text: "Got my RTX 4070 Super build from Sagar bhai last month. Temps stay under 65°C even in BGMI marathons and the cable management inside the case looks like showroom work. Paid exactly what was quoted — no surprises.",
     },
     {
-        name: "Priya M.",
+        name: "Priyanka Thakkar",
         role: "Content Creator",
         stars: 5,
-        text: "My MacBook wouldn't boot and three other shops gave up. Sagar bhai diagnosed it in 20 minutes and saved three years of footage. I'll never go anywhere else.",
+        text: "My MacBook Pro wouldn't power on and two other shops told me the logic board was dead. Sagar Infotech diagnosed a faulty power IC in 30 minutes and saved three years of client footage. Forever grateful.",
     },
     {
-        name: "Rohan D.",
-        role: "College Student",
+        name: "Rohan Dholakia",
+        role: "BE Student, Marwadi University",
         stars: 5,
-        text: "Honest pricing, zero upsell. They actually talked me OUT of buying a bigger GPU than I needed. That's rare. Rig runs cool and quiet for months now.",
+        text: "Walked in with a tight college budget, they talked me OUT of a bigger GPU than I needed and specced a Ryzen 5 build that crushes everything I throw at it. Honest shop, rare in this market.",
     },
     {
-        name: "Yash K.",
-        role: "Twitch Streamer",
+        name: "Yash Kotadia",
+        role: "Streamer & Editor",
         stars: 5,
-        text: "Custom liquid-cooled build — looks insane on camera and temps never cross 65°C during a 6-hour stream. Sagar Infotech knows what they're doing.",
+        text: "Custom liquid-cooled build with Lian Li fans — looks insane on my stream cam and Premiere renders that took 40 min on my old setup finish in 12. Worth every rupee.",
     },
     {
-        name: "Nikita S.",
-        role: "Architect",
+        name: "Nikita Sheth",
+        role: "Architect, Rajkot",
         stars: 5,
-        text: "Needed a workstation for heavy 3D rendering. They specced it exactly to my workload and delivered under budget. Post-sale support has been flawless.",
+        text: "Needed a workstation for heavy Revit + Lumion loads. They built exactly to my workflow and stayed under the budget I gave them. Post-sale support is just a WhatsApp away — no runaround.",
     },
     {
-        name: "Vivek J.",
-        role: "Returning Client",
+        name: "Vivek Jadeja",
+        role: "Returning client · 3rd build",
         stars: 5,
-        text: "Third upgrade from them in five years. Always the same — professional, patient, and passionate. Feels like talking to friends, not a shop.",
+        text: "Third upgrade with Sagar Infotech over five years. Same shop, same care. They even remember what parts they put in my old rig. Feels like family, not a transaction.",
     },
 ];
 
