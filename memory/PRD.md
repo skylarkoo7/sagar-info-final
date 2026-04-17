@@ -33,7 +33,16 @@ Build the sexiest possible dark-themed landing page + inner pages for Sagar Info
 - Uppercase address displayed in footer and on contact page
 - All CTAs link to tel:+919408488855 or https://wa.me/919408488855
 - data-testid across all interactive elements
-- Testing agent: 100% pass
+- Testing agent iteration 1: 100% pass
+
+## Completed — Iteration 2 (Dec 2025)
+- **Gallery page** (/gallery) with 29 real studio photos from client (25 custom builds + 4 component shots) served from /public/gallery/
+- Category filters: All Work / Custom Builds / Components & Gear
+- Full-screen lightbox with keyboard navigation (Esc / arrows), page counter, body scroll lock
+- Home page: new Gallery Teaser section (8 builds) + new Testimonials section (6 curated reviews + 4.9/5 Google rating + "View All" link to Google Maps)
+- Header + Footer + Mobile nav: added Gallery link
+- SEO: custom title, description, favicon (SI logo), Open Graph + Twitter Card meta tags for WhatsApp/LinkedIn previews
+- Testing agent iteration 2: 100% pass
 
 ## Backlog / Next Action Items (P1)
 - Optional: Gallery/Portfolio page showing real PC builds (photos from studio)
